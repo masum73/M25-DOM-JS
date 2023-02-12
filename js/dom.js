@@ -37,3 +37,26 @@ const oneLi = document.querySelector('.fruits-container li');
 console.log(oneLi);
 console.log(oneLi.innerText);
 
+// html collection vs Node list
+
+
+//modify style
+const someStyle = document.getElementById('fruits-title').style.backgroundColor = 'yellow';
+console.log(someStyle);
+
+const someStyle2 = document.getElementById('fruits-title').style.textAlign = 'center';
+console.log(someStyle2);
+
+//get attribute 
+const title = document.getElementById('fruits-title');
+title.getAttribute('class');
+console.log(title);
+
+// classList - add , remove class
+
+//set attribute 
+
+title.setAttribute('title', 'tooltip by JS');
+
+
+
